@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_option_navigations",
+  "info": {
+    "name": "navigation",
+    "icon": "grip-lines",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "model": "page"
+    }
+  }
+}
