@@ -10,11 +10,8 @@
     "strapi": "strapi",
     "reset": "rm -rf .cache && rm -rf .tmp && rm -rf build && yarn develop"
   },
-  "devDependencies": {},
   "dependencies": {
-    "knex": "0.21.18",
-    "pg": "^8.6.0",
-    "pg-connection-string": "^2.5.0",
+    "knex": "^0.95.6",
     "sqlite3": "5.0.0",
     "strapi": "3.6.0",
     "strapi-admin": "3.6.0",
