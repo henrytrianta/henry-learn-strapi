@@ -2,32 +2,33 @@
   "name": "henry-learn-strapi",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Henry Learn Strapi",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "reset": "rm -rf .cache && rm -rf .tmp && rm -rf build && yarn develop"
+    "strapi": "strapi"
   },
   "dependencies": {
     "knex": "^0.95.6",
-    "sqlite3": "5.0.0",
-    "strapi": "3.6.0",
-    "strapi-admin": "3.6.0",
-    "strapi-connector-bookshelf": "3.6.0",
+    "pg": "^8.6.0",
+    "pg-connection-string": "^2.5.0",
+    "sqlite3": "^5.0.2",
+    "strapi": "^3.6.2",
+    "strapi-admin": "^3.6.2",
+    "strapi-connector-bookshelf": "^3.6.2",
     "strapi-plugin-bootstrap-admin-user": "^1.0.8",
-    "strapi-plugin-content-manager": "3.6.0",
-    "strapi-plugin-content-type-builder": "3.6.0",
-    "strapi-plugin-email": "3.6.0",
-    "strapi-plugin-i18n": "3.6.0",
-    "strapi-plugin-upload": "3.6.0",
-    "strapi-plugin-users-permissions": "3.6.0",
-    "strapi-provider-upload-cloudinary": "^3.6.0",
-    "strapi-utils": "3.6.0"
+    "strapi-plugin-content-manager": "^3.6.2",
+    "strapi-plugin-content-type-builder": "^3.6.2",
+    "strapi-plugin-email": "^3.6.2",
+    "strapi-plugin-i18n": "^3.6.2",
+    "strapi-plugin-upload": "^3.6.2",
+    "strapi-plugin-users-permissions": "^3.6.2",
+    "strapi-provider-upload-cloudinary": "^3.6.2",
+    "strapi-utils": "^3.6.2"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Henry Trianta"
   },
   "strapi": {
     "uuid": "fe8993ee-38d1-4c53-912d-495e39ac5ce1"
